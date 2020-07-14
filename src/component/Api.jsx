@@ -16,7 +16,7 @@ const Api = () => {
        
    useEffect(() => {
        setdata(null);
-        fetch(`http://www.omdbapi.com/?s=${id}&apikey=dbc9f77a`)
+        fetch(`http://www.omdbapi.com/?s=${id}&apikey=********`)
         .then(res => res)
         .then(res => res.json())
         .then(resp => {
